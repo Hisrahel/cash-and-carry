@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+}
+a:hover{
+   text-decoration: none; 
+}
+.topnav{
+    background: #F7F7F7 !important;
+}
+.topnav span{
+    color: #0000008c;
+    font-size: 10px;
+    padding-right: 7px;
+    font-weight: 500;
+}
+a{
+    color: #0000008c;
+    font-size: 10px !important;
+    font-weight: 500;
+}
+a:hover{
+    color: #0000008c;
+}
+.logo{
+    width: 205px !important;
+}
+.all{
+    width: 30%;
+    border-radius: 500px;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.search{
+    width: 550px;
+    margin-left: -85px;
+    border-radius: 500px;
+    padding-left: 10px;
+    margin-top: 7px;
+}
+.search:focus{
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+.chevron{
+    position: absolute;
+    font-size: 12px;
+    top: 40px;
+    left: 400px;
+    cursor: pointer;
+}
+.searchfi{
+    position: absolute;
+    font-size: 15px;
+    top: 38px;
+    left: 970px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.nav-links{
+    font-size: 22px !important;
+    padding-left: 30px;
+}
+.nav-links:hover{
+    color: black;
+}
+.bluenav{
+    background: #002366;
+    color: white !important;
+}
+.track{
+    color: white !important;
+}
+.bluenav a{
+    color: white !important;
+    font-size: 11px !important;
+}
+.pre{
+    position: absolute;
+    top: 1000px;
+}
+.sect1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ten{
+    text-decoration: line-through;
+}
+.star{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.144);
+}
+.card{
+    width: 200px;
+    border: none;
+    margin-left: 50px !important;
+}
+img:hover{
+    cursor: pointer;
+}
+.next{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    background: #002366 !important;
+    color: rgba(255, 255, 255, 0.623) !important;
+    padding-top: 20px;
+}
+.cir{
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 100%;
+    margin-top: 12px;
+    border: 1px solid white;
+    padding: 5px;
+}
+.cir:hover{
+    background: white;
+    color: #002366;
+    border-radius: 100%;
+}
+.crid span{
+    padding-left: 30px;
+    cursor: pointer;
+}
+.crid hr{
+    border: 1px solid rgba(255, 255, 255, 0.212);
+    margin-left: 10px !important;
+}
+.copy{
+    padding-left: 30px;
+}
+.sell{
+    margin-top: 175px !important;
+}
+.caro{
+    scroll-behavior: smooth;
+}
+.acct{
+    background: #F7F7F7;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+input[type='submit']{
+    color: white;
+    font-size: 13px;
+    border: none;
+    background: #002366;
+    font-weight: 500;
+}
+.lost{
+    cursor: pointer;
+}
+input{
+    box-shadow: none !important;
+    border: 2px solid rgba(0, 0, 0, 0.103) !important;
+}
+.colo{
+    border-left: 1px solid rgba(0, 0, 0, 0.103) !important;
+    padding-left: 50px !important;
+}
+.time{
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: cursive;
+    color: #002366;
+}
+.here{
+    font-size: 15px !important;
+    padding-left: 10px;
+}
+.cont{
+    margin-top: 175px !important;
+}
+.sub{
+    width: 1000px; 
+    height: 250px;
+}
+
+@media (min-width: 280px) and (max-width: 575px) {
+    .logo{
+        width: 100px !important;
+    }
+    .foot{
+        display: none;
+    }
+    .colo{
+        border-left: 1px solid rgba(0, 0, 0, 0.103) !important;
+        padding-left: 15px !important;
+        padding-top: 20px;
+    }
+    .cont{
+        margin-top: 110px !important;
+    }
+    .topnav{
+        width: 100% !important;
+    } 
+    .topnavs{
+        width: 100% !important;
+    } 
+    .text{
+        color: black !important;
+        font-size: 20px;
+    }
+    .sell{
+        margin-top: 122px !important;
+    }
+    .cook{
+        width: 100% !important;
+    }
+    .gif{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .deal{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        border: none;
+        margin-left: 0px !important;
+    }
+    .sub{
+        width: 90%;
+    }
+    .next{
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    .all, .chevron{
+        display: none !important;
+    }
+    .search{
+        width: 100%;   
+        margin-left: 0px;
+    }
+    .nav-links{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logo{
+        width: 100px !important;
+    }
+    .foot{
+        display: none;
+    }
+    .colo{
+        border-left: 1px solid rgba(0, 0, 0, 0.103) !important;
+        padding-left: 15px !important;
+        padding-top: 20px;
+    }
+    .cont{
+        margin-top: 110px !important;
+    }
+    .topnav{
+        width: 100% !important;
+    } 
+    .topnavs{
+        width: 100% !important;
+    } 
+    .text{
+        color: black !important;
+        font-size: 20px;
+    }
+    .sell{
+        margin-top: 122px !important;
+    }
+    .cook{
+        width: 100% !important;
+    }
+    .gif{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .deal{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        border: none;
+        margin-left: 0px !important;
+    }
+    .sub{
+        width: 90%;
+    }
+    .next{
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    .all, .chevron{
+        display: none !important;
+    }
+    .search{
+        width: 100%;   
+        margin-left: 0px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .foot{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .logo{
+        width: 100px !important;
+    }
+    .foot{
+        display: none;
+    }
+    .fut{
+        display: none !important;
+    }
+    .fill{
+        display: none !important;
+    }
+    .topnav{
+        width: 100% !important;
+    } 
+    .text{
+        color: black !important;
+        font-size: 20px;
+    }
+    .sell{
+        margin-top: 130px !important;
+    }
+    .cook{
+        width: 100% !important;
+    }
+    .gif{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .deal{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        border: none;
+        margin-left: 0px !important;
+    }
+    .sub{
+        width: 90%;
+    }
+    .next{
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    .all, .chevron{
+        display: none !important;
+    }
+    .search{
+        width: 100%;   
+        margin-left: 0px;
+    }
+    .nav-links{
+        display: none;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+    .logo{
+        width: 100px !important;
+    }
+    .fut{
+        display: none !important;
+    }
+    .fill{
+        display: none !important;
+    }
+    .topnav{
+        width: 100% !important;
+    } 
+    .text{
+        color: black !important;
+        font-size: 20px;
+    }
+    .sell{
+        margin-top: 130px !important;
+    }
+    .cook{
+        width: 100% !important;
+    }
+    .gif{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .deal{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        border: none;
+        margin-left: 0px !important;
+    }
+    .sub{
+        width: 90%;
+    }
+    .next{
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    .all, .chevron{
+        display: none !important;
+    }
+    .search{
+        width: 100%;   
+        margin-left: 0px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .foot{
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .cook{
+        width: 100%;
+    }
+    .topnav{
+        width: 100% !important;
+    } 
+    .foot{
+        width: 100%;
+    }
+}
+
